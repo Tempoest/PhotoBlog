@@ -5,76 +5,139 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PhotoBlog</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
-      <nav>
-        <ul class="nav-list">
-          <li><a href="" class="nav-link">LIFESTYLE</a></li>
-          <li><a href="" class="nav-link">PHOTODIARY</a></li>
-          <li><a href="" class="nav-link">MUSIC</a></li>
-          <li><a href="" class="nav-link">TRAVEL</a></li>
-        </ul>
-      </nav>
+      <div class="container">
+        <nav>
+          <ul class="nav-list">
+            <li><a href="" class="nav-link">LIFESTYLE</a></li>
+            <li><a href="" class="nav-link">PHOTODIARY</a></li>
+            <li><a href="" class="nav-link">MUSIC</a></li>
+            <li><a href="" class="nav-link">TRAVEL</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
-      <ul class="post-block">
-        <li class="post-block-item">
-          <img src="./images/photoblog1.jpg" alt="Man rock the stadium" width="474" height="316"/>
-          <p class="post-block-tag">LIFESTYLE</p>
-          <h2 class="post-block-title">More than just a music festival</h2>
-          <p class="post-block-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.
-          </p>
-        </li>
-        <li class="post-block-item">
-          <img src="./images/photoblog2.jpg" alt="coffee" width="474" height="316" />
-          <p class="post-block-tag">LIFESTYLE</p>
-          <h2 class="post-block-title">Life tastes better with coffee</h2>
-          <p class="post-block-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.
-          </p>
-        </li>
-        <li class="post-block-item">
-          <img src="./images/photoblog3.jpg" alt="bridge" width="474" height="316" />
-          <p class="post-block-tag">PHOTODIARY</p>
-          <h2 class="post-block-title">American dream</h2>
-          <p class="post-block-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.
-          </p>
-        </li>
-        <li class="post-block-item">
-          <img src="./images/photoblog4.jpg" alt="women in jacket" width="474" height="316" />
-          <p class="post-block-tag">PHOTODIARY</p>
-          <h2 class="post-block-title">A day exploring the Alps</h2>
-          <p class="post-block-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.
-          </p>
-        </li>
-        <li class="post-block-item">
-          <img src="./images/photoblog5.jpg" alt="woman with hat" width="474" height="316" />
-          <p class="post-block-tag">LIFESTYLE</p>
-          <h2 class="post-block-title">Top 10 song for running</h2>
-          <p class="post-block-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.
-          </p>
-        </li>
-        <li class="post-block-item">
-          <img src="./images/photoblog6.jpg" alt="snowy road" width="474" height="316" />
-          <p class="post-block-tag">LIFESTYLE</p>
-          <h2 class="post-block-title">Cold winter days</h2>
-          <p class="post-block-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.
-          </p>
-        </li>
-      </ul>
-      <button type="button" id="expand-button">Load more</button>
+      <section class="gallary">
+        <div class="container">
+          <ul class="post-block">
+            <li class="post-block-item">
+              <img
+                src="./images/photoblog1.jpg"
+                alt="Man rock the stadium"
+                width="474"
+                height="316"
+              />
+              <p class="post-block-tag">LIFESTYLE</p>
+              <h2 class="post-block-title">More than just a music festival</h2>
+              <p class="post-block-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea.
+              </p>
+            </li>
+            <li class="post-block-item">
+              <img
+                src="./images/photoblog2.jpg"
+                alt="coffee"
+                width="474"
+                height="316"
+              />
+              <p class="post-block-tag">LIFESTYLE</p>
+              <h2 class="post-block-title">Life tastes better with coffee</h2>
+              <p class="post-block-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea.
+              </p>
+            </li>
+            <li class="post-block-item">
+              <img
+                src="./images/photoblog3.jpg"
+                alt="bridge"
+                width="474"
+                height="316"
+              />
+              <p class="post-block-tag">PHOTODIARY</p>
+              <h2 class="post-block-title">American dream</h2>
+              <p class="post-block-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea.
+              </p>
+            </li>
+            <li class="post-block-item">
+              <img
+                src="./images/photoblog4.jpg"
+                alt="women in jacket"
+                width="474"
+                height="316"
+              />
+              <p class="post-block-tag">PHOTODIARY</p>
+              <h2 class="post-block-title">A day exploring the Alps</h2>
+              <p class="post-block-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea.
+              </p>
+            </li>
+            <li class="post-block-item">
+              <img
+                src="./images/photoblog5.jpg"
+                alt="woman with hat"
+                width="474"
+                height="316"
+              />
+              <p class="post-block-tag">LIFESTYLE</p>
+              <h2 class="post-block-title">Top 10 song for running</h2>
+              <p class="post-block-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea.
+              </p>
+            </li>
+            <li class="post-block-item">
+              <img
+                src="./images/photoblog6.jpg"
+                alt="snowy road"
+                width="474"
+                height="316"
+              />
+              <p class="post-block-tag">LIFESTYLE</p>
+              <h2 class="post-block-title">Cold winter days</h2>
+              <p class="post-block-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <button type="button" id="expand-button">Load more</button>
+      </section>
     </main>
   </body>
 </html>

@@ -4,6 +4,52 @@
     --post-block-tag-color: #B4AD9E;
     --post-block-text: #626262;
     --expand-button-color: #656565;
+body {
+    font-family: Roboto;
+}
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.list {
+  list-style: none;
+  padding: 0;
+}
+.link {
+  text-decoration: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.container {
+    outline: 5px solid red;
+    width: 906px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 .nav-list {
     list-style: none;
@@ -23,7 +69,14 @@
 .nav-link:hover {
     color: var(--hover-color);
 }
+.gallary {
+    display: flex;
+    padding-bottom: 66px;
+    flex-wrap: wrap;
+}
 .post-block {
+    display: flex;
+    flex-wrap: wrap;
     list-style: none;
     column-count: 2;
     column-gap: 65cap;
@@ -37,11 +90,13 @@
     margin-bottom: 20px;
     width: 420px;
     height: 546px;
+    flex-wrap: wrap;
 }
 .post-block-item > img {
     width: max-content;
 }
 .post-block-tag {
+    flex-wrap: wrap;
     color: var(--post-block-tag-color);
     font-family: Ubuntu;
     font-size: 14px;
@@ -49,6 +104,7 @@
     margin-top: 62px;
 }
 .post-block-title {
+    flex-wrap: wrap;
     color: var(--post-block-text);
     font-family: Playfair Display, Roboto, serif;
     font-size: 30px;
