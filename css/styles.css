@@ -46,8 +46,7 @@ img {
   overflow: hidden;
 }
 .container {
-    outline: 5px solid red;
-    width: 906px;
+    width: 936px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -74,17 +73,13 @@ img {
     padding-bottom: 66px;
     flex-wrap: wrap;
 }
-.post-block {
+.post-list {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
-    list-style: none;
-    column-count: 2;
-    column-gap: 65cap;
-    width: 420px;
-    margin-left: 147px;
-    /* margin-right: 148px; */
-    /* align-items: center; */
-    display: block;
+    column-gap: 65px;
+    row-gap: 130px;
 }
 .post-block-item {
     margin-bottom: 20px;
@@ -102,6 +97,7 @@ img {
     font-size: 14px;
     font-weight: 300;
     margin-top: 62px;
+    margin-bottom: 32px;
 }
 .post-block-title {
     flex-wrap: wrap;
