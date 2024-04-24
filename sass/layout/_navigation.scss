@@ -1,0 +1,18 @@
+.nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 92px;
+    margin-top: 71px;
+}
+.nav-link {
+    font-family: Playfair Display, Roboto, serif;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    margin-right: 99px;
+}
+.nav-link:hover {
+    color: var(--hover-color);
+}
